@@ -1,0 +1,6 @@
+{
+  "name": "뉴스 기사 생성기 (News Generator)",
+  "description": "원하는 텍스트로 실제 뉴스 기사 화면을 만들고 PNG로 캡처할 수 있는 유틸리티입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
