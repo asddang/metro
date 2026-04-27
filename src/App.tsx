@@ -168,42 +168,42 @@ export default function App() {
           </article>
 
           {/* Sidebar */}
-          <aside className="w-[480px] flex-shrink-0">
+          <aside className="w-[360px] flex-shrink-0">
             <div className="mb-12">
               <h3 className="text-3xl font-bold border-b-4 border-gray-900 pb-4 mb-6">가장 많이 본 뉴스</h3>
               <ul className="space-y-8">
-                <li className="flex gap-6 items-start group cursor-pointer">
-                  <span className="text-blue-600 font-extrabold italic text-4xl leading-none font-serif mt-1">1</span>
-                  <p className="text-2xl font-medium leading-snug text-gray-800 group-hover:underline">정부, 추석 연휴 특별 방역 대책 발표... "고향 방문 자제 권고"</p>
+                <li className="flex gap-4 items-start group cursor-pointer">
+                  <span className="text-blue-600 font-extrabold italic text-3xl leading-none font-serif mt-1">1</span>
+                  <p className="text-xl font-medium leading-snug text-gray-800 group-hover:underline break-keep">정부, 추석 연휴 특별 방역 대책 발표... "고향 방문 자제 권고"</p>
                 </li>
-                <li className="flex gap-6 items-start group cursor-pointer">
-                  <span className="text-blue-600 font-extrabold italic text-4xl leading-none font-serif mt-1">2</span>
-                  <p className="text-2xl font-medium leading-snug text-gray-800 group-hover:underline">태풍 '바비' 북상 중, 내일부터 전국 영향권... 기상청 예보</p>
+                <li className="flex gap-4 items-start group cursor-pointer">
+                  <span className="text-blue-600 font-extrabold italic text-3xl leading-none font-serif mt-1">2</span>
+                  <p className="text-xl font-medium leading-snug text-gray-800 group-hover:underline break-keep">태풍 '바비' 북상 중, 내일부터 전국 영향권... 기상청 예보</p>
                 </li>
-                <li className="flex gap-6 items-start group cursor-pointer">
-                  <span className="text-blue-600 font-extrabold italic text-4xl leading-none font-serif mt-1">3</span>
-                  <p className="text-2xl font-medium leading-snug text-gray-800 group-hover:underline">오늘의 증시: 코스피 상승 마감, 외인 매수세 유입에 2400선 안착</p>
+                <li className="flex gap-4 items-start group cursor-pointer">
+                  <span className="text-blue-600 font-extrabold italic text-3xl leading-none font-serif mt-1">3</span>
+                  <p className="text-xl font-medium leading-snug text-gray-800 group-hover:underline break-keep">오늘의 증시: 코스피 상승 마감, 외인 매수세 유입에 2400선 안착</p>
                 </li>
-                <li className="flex gap-6 items-start group cursor-pointer">
-                  <span className="text-blue-600 font-extrabold italic text-4xl leading-none font-serif mt-1">4</span>
-                  <p className="text-2xl font-medium leading-snug text-gray-800 group-hover:underline">비대면 시대의 명암... 고령층 디지털 소외 현상 심화</p>
+                <li className="flex gap-4 items-start group cursor-pointer">
+                  <span className="text-blue-600 font-extrabold italic text-3xl leading-none font-serif mt-1">4</span>
+                  <p className="text-xl font-medium leading-snug text-gray-800 group-hover:underline break-keep">비대면 시대의 명암... 고령층 디지털 소외 현상 심화</p>
                 </li>
               </ul>
             </div>
             
-            <div className="bg-blue-50 p-6 border-2 border-blue-100 rounded-lg flex flex-col">
-              <p className="text-xl text-blue-800 font-bold mb-3">AD</p>
-              <div className="w-full h-64 bg-white relative overflow-hidden group cursor-pointer border border-blue-100 rounded-sm">
+            <div className="bg-blue-50 p-5 border-2 border-blue-100 rounded-lg flex flex-col">
+              <p className="text-lg text-blue-800 font-bold mb-3">AD</p>
+              <div className="w-full h-56 bg-white relative overflow-hidden group cursor-pointer border border-blue-100 rounded-sm">
                 <img 
                   src="https://images.unsplash.com/photo-1584036561565-b155d0505bdf?auto=format&fit=crop&q=80&w=400&h=400" 
                   alt="방역 마스크 광고" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   crossOrigin="anonymous"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/20 flex flex-col justify-center p-6">
-                  <span className="text-white text-xl font-bold mb-2 opacity-90 tracking-widest">COVID-19 완벽 대비</span>
-                  <span className="text-white font-black text-4xl mb-3 leading-tight drop-shadow-md">식약처 인증<br/>KF94 마스크</span>
-                  <span className="text-blue-900 font-extrabold text-lg bg-yellow-300 w-fit px-4 py-1 rounded shadow-sm mt-2">100매 한정 특가 ₩19,900</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-900/20 flex flex-col justify-center p-5">
+                  <span className="text-white text-lg font-bold mb-2 opacity-90 tracking-widest">COVID-19 완벽 대비</span>
+                  <span className="text-white font-black text-3xl mb-3 leading-tight drop-shadow-md">식약처 인증<br/>KF94 마스크</span>
+                  <span className="text-blue-900 font-extrabold text-base bg-yellow-300 w-fit px-3 py-1 rounded shadow-sm mt-1">100매 한정 특가 ₩19,900</span>
                 </div>
               </div>
             </div>
